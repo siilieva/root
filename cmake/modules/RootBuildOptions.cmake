@@ -397,15 +397,9 @@ endif()
 # Please notify SPI when adding to this list
 foreach(opt afdsmgrd afs alien bonjour builtin_afterimage castor chirp cxx11 cxx14 cxx17
         cxxmodules exceptions geocad gfal glite globus gsl_shared hdfs html ios jemalloc krb5
-<<<<<<< HEAD
-        ldap memstat minuit2 monalisa oracle proof pyroot-python2 pyroot_legacy
-        pythia6 pythia6_nolink python qt qtgsi qt5web rfio ruby sapdb srp table
-        tcmalloc vmc xproofd mysql odbc pgsql)
-=======
         ldap memstat minuit2 monalisa oracle pyroot-python2 pyroot_legacy
         python qt qtgsi qt5web rfio ruby sapdb srp table
         tcmalloc vmc xproofd)
->>>>>>> 9c5358ceba0 (This reverts commit 4e30f2611d1bbb3f12ce409b10dc59c202e309e1.)
   if(${opt})
     message(FATAL_ERROR ">>> '${opt}' is no longer part of ROOT ${ROOT_VERSION} build options.")
   endif()
